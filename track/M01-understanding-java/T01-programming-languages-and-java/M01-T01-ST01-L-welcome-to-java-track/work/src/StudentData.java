@@ -4,7 +4,7 @@ public class StudentData {
         int age = 21;
         double percentage = 84.75;
         char grade = 'A';
-        boolean placementEligible = true;;
+        boolean placementEligible = true;
 
         System.out.println("Name:" + name);
         System.out.println("Age : " + age);
