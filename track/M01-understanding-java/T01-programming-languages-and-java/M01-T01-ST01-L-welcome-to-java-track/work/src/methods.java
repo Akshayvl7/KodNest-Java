@@ -1,5 +1,5 @@
 public class methods {
-        public static int add (int a , int b){
+    public static int add (int a , int b){
         int res = a + b ;
         return res;
     }      
@@ -9,6 +9,5 @@ public class methods {
 
         int res = add(a,b);
         System.out.println(res);
-    }
-       
+    }       
 }
