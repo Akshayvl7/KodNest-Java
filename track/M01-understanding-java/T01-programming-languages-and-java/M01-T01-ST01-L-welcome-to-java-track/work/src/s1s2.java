@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class s1s2 {
+    // Class blueprint (attributes)
     int rollno;
     String name;
     int score;
@@ -8,7 +9,7 @@ public class s1s2 {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
-        // Creating objects
+        // Creating objects of class s1s2
         s1s2 s1 = new s1s2();
         s1s2 s2 = new s1s2();
 
@@ -35,6 +36,3 @@ public class s1s2 {
         s.close();
     }
 }
-
-
-
