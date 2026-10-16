@@ -6,7 +6,7 @@ class Student{
     void showMarks(int bonus){
         int finalmark = 0;
         finalmark = mark + bonus;
-        System.out.println(mark);
+       // System.out.println(mark);
         System.out.println(finalmark);
     }
 }

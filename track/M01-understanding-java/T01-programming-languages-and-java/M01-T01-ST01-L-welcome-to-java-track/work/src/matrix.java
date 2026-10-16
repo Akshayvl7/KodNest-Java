@@ -8,10 +8,18 @@ public class matrix {
         System.out.println("enter columns: ");
         int b = s.nextInt();
         int[][] matrix = new int[a][b];
-        for (a = 0; a < matrix.length; a++) {
-            for (b = 0; b < matrix[a].length; b++) {
-                matrix[a][b] = s.nextInt();
-            System.out.print(matrix[a][b] + " ");
+
+        System.out.println("enter values: ");
+        for (int i = 0; i < a; i++) {
+            for (int j = 0; j < b; j++) {
+                matrix[i][j] = s.nextInt();
+            }
+        }
+
+        System.out.println("Matrix representation:");
+        for (int i = 0; i < a; i++) {
+            for (int j = 0; j < b; j++) {
+                System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
         }
